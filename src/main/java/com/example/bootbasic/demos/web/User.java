@@ -24,14 +24,14 @@ public class User {
 
     private Integer age;
 
-    private Integer money;
+    private String description;
 
-    public Integer getMoney() {
-        return money;
+    public String getDescription() {
+        return description;
     }
 
-    public void setMoney(Integer money) {
-        this.money = money;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getName() {
