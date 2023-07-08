@@ -20,10 +20,19 @@ package com.example.bootbasic.demos.web;
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
  */
 public class User {
+    public Integer getMoney() {
+        return money;
+    }
+
+    public void setMoney(Integer money) {
+        this.money = money;
+    }
 
     private String name;
 
     private Integer age;
+
+    private Integer money;
 
     public String getName() {
         return name;
